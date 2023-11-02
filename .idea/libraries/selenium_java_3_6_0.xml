@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="selenium-java-3.6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaTrainingBasisCursisten/lib/selenium-java-3.6.0/client-combined-3.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaTrainingBasisCursisten/lib/selenium-java-3.6.0/client-combined-3.6.0-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
