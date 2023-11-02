@@ -18,7 +18,7 @@ public class VerwisselVariabelen {
 		// maak een extra int variabele aan om tijdelijk b in op te slaan
 		// Sla a op in b
 		// Sla de tijdelijke variabele op in a
-		// Kopieer regel 13 om het resultaat te zien
+		// Kopieer en plak regel 13 om het resultaat te zien
 
 
 

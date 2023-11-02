@@ -24,7 +24,7 @@ public class Twinkle {
 //		How I wonder what you are
 
 		
-		System.out.println("Succes!\tTabje Einde Regel\nNieuwe Regel \bBackspace \n_Single quote \' \rCarriage return \fformfeed");
+		System.out.println("Succes!\tTabje Einde Regel\n\t\t\tNieuwe Regel en 3 tabs\t\" tab en dubbelequtes\"");
 		//Probeer de niet gebruikte escape sequence opties uit	
 		//tip: plak de output in notepad++, en kies daar voor View - Show Symbol - Show all characters
 	}
