@@ -13,7 +13,13 @@ public class Testclass {
 
         JavaSpecialist j = new JavaSpecialist();
 
+        // e ziet name, address, phoneNumber, experience
 
+        //m ziet  name, address, phoneNumber, experience + teamsize + reportProjectStatus
+
+        //p ziet  name, address, phoneNumber, experience + programmingLanguages + writeCode
+
+        //j ziet  name, address, phoneNumber, experience, programmingLanguages, writeCode +  ocaCertified + debugJavaCode
 
 
 
