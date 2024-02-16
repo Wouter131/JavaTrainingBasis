@@ -1,6 +1,6 @@
 package basisOefeningenUitwerkingen;
 
-public class PersoonArray {
+public class Persoon4Van4 {
 	 	private String naam;
 	    public String getAchternaam() {
 			return achternaam;
@@ -9,17 +9,17 @@ public class PersoonArray {
 	    private String woonplaats;
 	    private int leeftijd;
 
-	    public PersoonArray() {
+	    public Persoon4Van4() {
 	    	System.out.println();
 	    }
 
-	    public PersoonArray(String naam, String achternaam, String woonplaats) {
+	    public Persoon4Van4(String naam, String achternaam, String woonplaats) {
 	        this.naam = naam;
 	        this.achternaam = achternaam;
 	        this.woonplaats = woonplaats;	       
 	    }
 
-	    public PersoonArray(String naam, String achternaam, String woonplaats, int leeftijd) {
+	    public Persoon4Van4(String naam, String achternaam, String woonplaats, int leeftijd) {
 	        this(naam,achternaam, woonplaats);
 	        this.leeftijd = leeftijd;
 	    }
@@ -38,19 +38,19 @@ public class PersoonArray {
 
 	public static void main(String[] args) {
 		    // cursits 1 en 2 bestaan al.
-		    PersoonArray cursist1 = new PersoonArray("Luuk", "van Elst", "Zaltbommel", 38);
-	        PersoonArray cursist2 = new PersoonArray("Riet", "de Vries", "Lisse", 25);
+		    Persoon4Van4 cursist1 = new Persoon4Van4("Luuk", "van Elst", "Zaltbommel", 38);
+	        Persoon4Van4 cursist2 = new Persoon4Van4("Riet", "de Vries", "Lisse", 25);
 
 	       
 	        ////1. Maak een Array van type Persoon objecten, het array is 3 groot
-	        PersoonArray personen[] = new PersoonArray[3];
+	        Persoon4Van4 personen[] = new Persoon4Van4[3];
 			//2. Je hebt eerder de objecten cursist1 en cursist2 aangemaakt.
 		    // Geef index 0 van het Array de waarde cursist1, en index 1 de waarde van cursist2
 	        personen[0] = cursist1;
 	        personen[1] = cursist2;
 
             //3. Maak een 3e cursist aan en schrijf die weg op index 2.
-		    PersoonArray cursist3 = new PersoonArray("Jade", "van Hulst", "Eindhoven", 40);
+		    Persoon4Van4 cursist3 = new Persoon4Van4("Jade", "van Hulst", "Eindhoven", 40);
 	        personen[2] = cursist3;
 
 			//4. Print de lengte van het Array uit met .length
@@ -66,7 +66,7 @@ public class PersoonArray {
 	        System.out.println(personen[2].achternaam.length());
 	        
 	        //8. Clone dit Array in een nieuw array met de methode .clone()
-			PersoonArray personen2[] = personen.clone();
+			Persoon4Van4 personen2[] = personen.clone();
 	        
 	        //9. Print nu dezelfde gegevens als in de regels hierboven, maar dan van het nieuwe array
 			System.out.println(personen2.length);

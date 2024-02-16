@@ -1,6 +1,6 @@
 package basisOefeningenUitwerkingen;
 
-public class PersoonSheet44 {
+public class Persoon2Van4 {
 	 	private String naam, achternaam, woonplaats;
 
 		//1.Maak in de class Persoon (boven de main methode) de public String methode getNaam(), deze methode returnt de instance variabele naam
@@ -9,11 +9,11 @@ public class PersoonSheet44 {
 	    }
 
 	    //constructor
-	    public PersoonSheet44() {
+	    public Persoon2Van4() {
 	    	System.out.println();
 	    }
 
-	    public PersoonSheet44(String naam, String achternaam, String woonplaats) {
+	    public Persoon2Van4(String naam, String achternaam, String woonplaats) {
 	        this.naam = naam;
 	        this.achternaam = achternaam;
 	        this.woonplaats = woonplaats;
@@ -28,11 +28,11 @@ public class PersoonSheet44 {
 
 
 	public static void main(String[] args) {
-		   PersoonSheet44 w = new PersoonSheet44("Wouter", "van Praag", "Zaltbommel");
+		   Persoon2Van4 w = new Persoon2Van4("Wouter", "van Praag", "Zaltbommel");
 
 	    	//2.Maak nu in de main methode 2 nieuwe cursisten aan (cursist2 en cursist3) met zelf verzonnen naam, achternaam, woonplaats.
-	        PersoonSheet44 cursist2 = new PersoonSheet44("Riet", "de Vries", "Lisse");
-	        PersoonSheet44 cursist3 = new PersoonSheet44("Jade", "van Hulst", "Eindhoven");
+	        Persoon2Van4 cursist2 = new Persoon2Van4("Riet", "de Vries", "Lisse");
+	        Persoon2Van4 cursist3 = new Persoon2Van4("Jade", "van Hulst", "Eindhoven");
 
 		    //3.Nu moet onderstaande regel succesvol runnen in de main methode, je vergelijkt hier met de equals() methode of de namen gelijk zijn
 	        System.out.println(cursist2.getNaam().equals(cursist3.getNaam()));
