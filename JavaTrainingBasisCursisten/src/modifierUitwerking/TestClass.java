@@ -1,4 +1,4 @@
-package modifier;
+package modifierUitwerking;
 
 import basisOefeningen.AccessModifiersExample;
 
