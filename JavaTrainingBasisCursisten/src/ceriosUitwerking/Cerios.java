@@ -1,4 +1,4 @@
-package cerios;
+package ceriosUitwerking;
 //2. Voeg een class toe aan het package met de naam ‘Cerios’ (zonder main() methode)
 public class Cerios {
     //3. Geef de class Cerios de instance variabele int leeftijdTester en String naamTester

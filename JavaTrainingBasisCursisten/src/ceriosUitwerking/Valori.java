@@ -1,4 +1,4 @@
-package cerios;
+package ceriosUitwerking;
 //5. Voeg nog 3 classes toe aan het package cerios met de namen ‘Valori’, ‘Salves’ en ‘DeAgileTesters’
 // die de class Cerios extends. Laat IntelliJ steeds de constructor genereren
 public class Valori extends Cerios{

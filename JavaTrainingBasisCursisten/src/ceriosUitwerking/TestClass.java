@@ -1,4 +1,4 @@
-package cerios;
+package ceriosUitwerking;
 //6. Voeg nu een nieuwe class ‘TestClass’ toe met main methode
 public class TestClass {
 
